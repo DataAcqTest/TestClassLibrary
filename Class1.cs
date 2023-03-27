@@ -7,7 +7,7 @@ namespace TestClassLibrary
 	{
 		public static string Convert(String input)
 		{
-			return input.ToUpper();
+			return "Prefix" + input.ToUpper();
 		}
 	}
 }
